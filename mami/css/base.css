@@ -1,0 +1,255 @@
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+}
+ul,li {
+	list-style:none;
+}
+a {
+	text-decoration:none;
+	color: #ccc;
+}
+a:hover {
+	color: #fff;
+}
+i {
+	font-style:normal;
+}
+.clearfix:before,.clearfix:after {
+	display:table;
+	content:"";
+}
+.clearfix:after {
+	clear:both;
+}
+.clearfix {
+ _zoom:1;
+}
+.w {
+	width:958px;
+	margin:0 auto;
+}
+body {
+	background:url(../images/BG.jpg);
+	font-size:12px;
+}
+
+/* ============================================ */
+
+.nav_w {
+	height:54px;
+	background:url(../images/cent.png) no-repeat center top;	
+}
+.nav {
+	height:40px;
+}
+.nav ul li {
+	width:85px;
+	height:40px;
+	float:left;
+	margin-right:60px;
+	text-align:center;
+	font:700 16px/40px "Microsoft YaHei";
+	color: #fff;
+}
+.nav ul li.fast {
+	margin-left:50px;
+	background:url(../images/bgcur.jpg) no-repeat;
+}
+.nav ul li a {
+	display: block;
+	height: 40px;
+}
+.nav ul li a:hover {
+	background:url(../images/bgcur.jpg) no-repeat;
+}
+
+/* ============================================ */
+
+.zixun {
+	margin-top:20px;
+	height:213px;
+	width:939px;
+	background:url(../images/xinxi_bg.jpg);
+	border-top:1px solid #DED8C8;
+	border-bottom:1px solid #DED8C8;
+	border-radius:3px;
+	padding-top:15px ;	
+	padding-left:19px;
+}
+.zx_l {
+	width:475px;
+	position:relative;
+	float:left;
+}
+.zx_a {
+	position:absolute;
+	top:5px;
+	right:10px;
+	width:58px;
+	height:21px;
+	font-size:12px;
+	line-height:21px;
+	border:1px solid #FEFFFA;
+	border-left-width:0;
+	border-radius:3px;
+	color:#FBFFFF;
+	background-color:#865489;
+	text-align:center;
+}
+.zx_l ul li {
+	line-height:25px;
+	position:relative;
+	color:#A9A19E;
+}
+.zx_l ul li span {
+	position:absolute;
+	right:0;
+}
+.zx_l ul li i.fast a {
+	color:#F41AA4;
+}
+.zx_l ul li a:hover,.zx_l ul li i.fast a:hover {
+	color: skyblue;
+} 
+.zx_r {
+	width:426px;
+	height:213px;
+	float:right;
+	position:relative;
+}
+.zx_r ul {
+	margin-top: 18px;
+}
+.zx_r ul li {
+	float:left;
+	margin-right:25px;
+}
+.zx_r ul li.last {
+	margin-right:0;
+}
+
+/* ============================================ */
+
+.huanjing {
+	margin-top:15px;
+	height:227px;
+	width:939px;
+	background:url(../images/xinxi_bg.jpg);
+	border-top:1px solid #DED8C8;
+	border-radius:3px;
+	padding-top:15px ;
+	padding-left:19px;
+	position:relative;
+}
+.huanjing ul {
+	width:916px;
+	height:160px;
+	border:3px solid #B7B2D2;
+	border-radius:5px;
+	margin-top:10px;
+	background-color:#FDFDFD;
+	padding-top:10px;
+	padding-left:10px;
+}
+.huanjing ul li {
+	float:left;
+	width:215px;
+	height:130px;
+	margin-right:10px;
+	text-align:center;
+	font-family:"黑体";
+	color:#6F6F6F;
+}
+.huanjing ul li img {
+	width:100%;
+	height:100%;
+	border:2px solid #EBE9EA;
+}
+/* ============================================ */
+.taochan {
+	width:948px;
+	margin-top:10px;
+	height:211px;
+	background:url(../images/xinxi_bg.jpg);
+	border:2px solid #DED8C8;
+	border-radius:5px;
+	padding-left:10px;
+	padding-top:12px;
+}
+.taochan ul {
+	width:937px;
+	height:200px;
+	background-color:#FDFDFD;
+}
+
+.taochan ul li {
+	width:220px;
+	height:200px;
+	background-color:#FDFDFD;
+	border:2px solid #DED8C8;
+	float:left;
+	margin-right: 12px;
+}
+.taochan ul li.last {
+	margin-right:0;
+}
+.taochan ul li dl {
+	padding:10px;
+	color:#ABABAB;
+}
+.taochan ul li dl dt {
+	font-size:20px;
+	font-family:"Microsoft YaHei";
+	color:#7E357C;
+	padding-bottom: 10px;
+}
+.taochan ul li dl dd img {
+	width:84px;
+	height:71px;	
+}
+.taochan ul li dl dd a {
+	font-size: 14px;
+	line-height: 24px;
+	font-family:"Microsoft YaHei";
+	color: purple;
+}
+.taochan ul li dl dd a:hover{
+	color: skyblue;
+}
+.taochan ul li dl dd a.circle {
+	padding-left: 25px;
+	background: url(../images/news_icon.png) no-repeat left center;
+}
+/* 四大套餐 */
+.dd1 {
+	float:left;
+}
+.dd2 {
+	float:right;
+}
+.dd3 {
+	margin-top:10px;
+	float:left;
+}
+.dd4 {
+	margin-top:10px;
+	float:right;
+}
+/* 四大套餐 */
+/* ============================================== */
+.foot {
+	height:90px;
+	background:url(../images/foot_bg.png);
+}
+.footer {
+	color:#ABA3A0;
+	padding-top:15px;
+	line-height:40px;
+}
+
+
+
+
+

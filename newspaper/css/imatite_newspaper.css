@@ -1,0 +1,353 @@
+body, div, img, span, h4, p, h3, ul, li {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 20px;
+}
+ul, li {
+  list-style: none;
+}
+.task {
+  width: 980px;
+  height: 1386px;
+  /*background: darkorange;*/
+  margin: 0 auto;
+  position: relative;
+}
+/*header*/
+.header {
+  width: 893px;
+  height: 63px;
+  border-bottom: 2px solid #928E8C;
+  margin: 0 auto;
+  position: relative;
+}
+.header img {
+  /*float: left;*/
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.header span {
+  display: inline-block;
+  font-family: "黑体";
+  font-size: 12px;
+  color: #D45C5B;
+  vertical-align: middle;
+  /*float: right;*/
+  position: absolute;
+  right: 0;
+  bottom: 6px;
+}
+
+/*adv*/
+/*上下外边距 34px;*/
+.adv {
+  width: 893px;
+  height: 303px;
+  margin:34px auto;
+  overflow: hidden;
+}
+.adv_left {
+  width: 601px;
+  float: left;
+  padding-right: 40px;
+  /*background: red;*/
+}
+.adv_right {
+  /*background: green;*/
+  float: right;
+  width: 205px;
+  height: 291px;
+  border-top: 2px solid #CC7F90;
+  padding-top: 12px;
+  position: relative;
+}
+.adv_right .s1 {
+  display: inline-block;
+  font-family: "Adobe 黑体 Std";
+  font-size: 12px;
+  font-style: italic;
+  line-height: 12px;
+  color: #666767;
+}
+.adv_right .s2 {
+
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  font-family: '微软雅黑';
+  font-size: 55px;
+  color: #CC8090;
+}
+.adv_right .s3 {
+  position: absolute;
+  bottom: 10px;
+  left: 90px;
+  font-family: '微软雅黑';
+  font-size: 23px;
+  color: #CC8090;
+}
+.adv_right .s4 {
+  position: absolute;
+  bottom: 0;
+  left: 90px;
+  font-family: '微软雅黑';
+  font-size: 12px;
+}
+/*字符 700（.s5），将其以.task为父容器定位在页面中*/
+.s5 {
+  position: absolute;
+  top: 277px;
+  left: 762px;
+  font-family: '微软雅黑';
+  font-size: 116px;
+  font-style: italic;
+  color: #75B76B;
+  /*z-index: -1;*/
+}
+
+/*content*/
+.content {
+  width: 641px;
+  height: 173px;
+  /*background: pink;*/
+  /*margin: 0 auto;*/
+  margin-left: 43px;
+}
+.content h3 {
+  font-family: '微软雅黑';
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.content p {
+  font-family: '宋体';
+  font-size: 12px;
+  color: #767677;
+  line-height: 16px;
+
+}
+.con_1 {
+  float: left;
+  width: 234px;
+  height: 173px;
+  /*background: aquamarine;*/
+  margin-right: 20px;
+}
+.con_1 h3 {
+  text-decoration: underline;
+  color: #418B58;
+}
+.con_2 {
+  float: left;
+  width: 208px;
+  height: 173px;
+  /*background: aquamarine;*/
+  margin-right: 20px;
+}
+.con_2 h3 {
+  text-decoration: underline;
+  color: #D1984E;
+}
+.con_3 {
+  float: left;
+  width: 155px;
+  height: 173px;
+  /*background: aquamarine;*/
+}
+.con_3 h3 {
+  text-decoration: underline;
+  color: #CC7680;
+}
+.con_3 p.ps {
+  font-family: '微软雅黑';
+  font-size: 12px;
+  color: #221814;
+  /*background: navajowhite;*/
+}
+.con_3 span {
+  color: #CC7680;
+}
+
+/*info*/
+.info {
+  width: 893px;
+  height: 611px;
+  margin: 69px auto 36px;
+  /*overflow: hidden;*/
+}
+.info .info_left {
+  width: 417px;
+  height: 591px;
+  float: left;
+  padding-top: 20px;
+}
+.info_left_top p {
+  font-family: "黑体";
+  font-size: 42px;
+  font-weight: bold;
+  color: #11456b;
+}
+.info_left_top p span {
+  font-family: "黑体";
+  font-size: 72px;
+  font-weight: bold;
+  font-style: italic;
+  color: #f5e327;
+  /*margin:16px 0 0 0;*/
+  line-height: 16px;
+}
+.info_left_top span {
+  font-family: "黑体";
+  font-size: 33px;
+  font-weight: bold;
+  color: #11456b;
+}
+.info_left_bottom {
+  margin-top: 18px;
+  padding-top: 24px;
+  border-top: 2px solid #11456b;
+  font-family: "宋体";
+  color: #767777;
+  font-size: 12px;
+  /*text-indent: 2em; !*首先缩进2个字符*!*/
+  line-height: 16px;
+  /*overflow: auto;*/
+  /*text-align: right;*/
+}
+.info_left_bottom span {
+  display: block;
+  /*background: pink;*/
+  font-family: "微软雅黑";
+  color: #F4E326;
+  font-size: 70px;
+  /*!*首字下沉（font-size: 70px;float: left;）二者配合使用*!*/
+  float: left;
+  padding: 24px 10px 30px 0;
+}
+.info_left_bottom img {
+  float: right;
+  margin: 15px 0 15px 15px;
+  /*vertical-align: text-bottom;*/
+}
+.info_right {
+  width: 458px;
+  height: 611px;
+  float: right;
+  position: relative;
+}
+.info_right_up_char {
+  width: 400px;
+  height: 60px;
+  /*background: blueviolet;*/
+  position: absolute;
+  left: 36px;
+  top: 200px;/*容器高度为 258px*/
+}
+.info_right_up_char p {
+  height: 44px;
+  line-height: 44px;
+  font-family: "微软雅黑";
+  font-size: 12px;
+  font-style: italic;
+  color: #72B069;
+  border-left: 3px solid #72B069;
+}
+.info_right_up_char p span {
+  margin: 0 10px;
+  font-family: "微软雅黑";
+  font-size: 26px;
+  color: #FFFFFF;
+  font-style: normal;
+}
+.info_right_down {
+  width: 438px;/*原458*/
+  height: 286px;/*原318*/
+  position: absolute;
+  bottom: 0;
+  padding: 30px 20px 0 0;/*设置上、右的内边距*/
+  background: #EDECD6;
+}
+.info_right_down ul {
+  width: 380px;
+  height: 100px;
+  /*background: navajowhite;*/
+  margin-left: 30px;
+  margin-bottom: 24px;
+  padding-left: 30px;
+
+}
+.info_right_down ul li p {
+  font-family: "宋体";
+  font-size: 16px;
+  color: #5A5A5A;
+  line-height: 35px;
+  text-align: left;
+}
+.info_right_down ul li span {
+  font-family: "宋体";
+  font-style: italic;
+  font-size: 12px;
+  color: #5A5A5A;
+  text-align: right;
+}
+.info_right_down_div {
+  width: 438px;
+  height: 162px;
+}
+.info_right_down_p1 {
+  width: 259px;
+  height: 162px;/*原162*/
+  background: #D45C5B;
+  margin-right: 15px;
+  float: left;
+}
+.info_right_down_p1 .zero {
+  display: inline;
+  font-family: "微软雅黑";
+  font-size: 110px;
+  color: #FFFFFF;
+}
+.info_right_down_p1 .one {
+  width: 175px;
+  float: right;
+  margin-top: 30px;
+  padding-left: 10px;
+  font-family: "黑体";
+  font-size: 12px;
+  color: #FEFEFE;
+  border-left: 2px solid #FEFEFE;
+  line-height: 16px;
+}
+.info_right_down_p1 .one span {
+  font-family: "黑体";
+  font-size: 21px;
+  color: #FEFEFE;
+  font-style: italic;
+  line-height: 24px;
+}
+.info_right_down_p2 {
+  /*原 width: 164px; height: 162px; */
+  width: 144px;
+  height: 142px;
+  float: right;
+  padding: 10px;
+}
+.info_right_down_p2 img {
+  display: inline;
+}
+
+/*footer*/
+.footer {
+  width: 893px;
+  border-top: 1px solid #938e8c;
+  margin: 0 auto;
+}
+.footer p {
+  font-family: "黑体";
+  font-size: 12px;
+  color: #D45C5B;
+  text-align: right;
+}
+

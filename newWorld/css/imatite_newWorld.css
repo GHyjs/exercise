@@ -1,0 +1,659 @@
+﻿body, img, div, ul, li, a, p, hr, form, input, label, textarea {
+  margin: 0;
+  padding: 0;
+}
+ul, li {
+  list-style: none;
+  border: none;
+}
+a {
+  text-decoration: none;
+  color: #FEFEFE;
+}
+hr {
+  margin: 0 auto;
+  width: 35px;
+  height: 2px;
+  background-color: #FEFEFE;
+  border: none;/*若不将边框设为none，在firefox中将无法正常显示初始化的背景色，且a:hover时的hr背景色也无法正常显示设置的背景色*/
+}
+form, input, textarea {
+  border: none;
+}
+img {
+  border: none;
+}
+a:hover {
+  border: 0;
+}
+/*header*/
+.header {
+  width: 1160px;
+  height: 33px;/*原57*/
+  /*background: #333;*/
+  margin: 0 auto;
+  padding: 12px 0;
+}
+.h_left {
+  width: 107px;
+  height: 33px;
+  /*background: aquamarine;*/
+  float: left;
+}
+.h_left > p {
+  font-family: "黑体";
+  font-size: 21px;
+  color: #393939;
+  /*background: deeppink;*/
+  display: inline;
+  line-height: 33px;/*这里，设为 inline 时 line-height 才起效*/
+  margin-left: 10px;
+}
+.h_right {
+  width: 600px;
+  height: 33px;
+  /*background: orange;*/
+  float: right;
+  line-height: 33px;
+}
+.h_right ul li a{
+  float: left;
+  margin-left: 40px;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  font-weight: bold;
+  color: #787B83;
+}
+.h_right ul li:hover a {
+  padding-bottom: 10px;  /*当鼠标移到li上的时候，在下一个div的top部位添加下划线*/
+  border-bottom: 3px solid #E74F4D;
+}
+.h_right .h_login:hover a{
+  padding-bottom: 0;
+  border-bottom: none;
+}
+/*adv*/
+.adv {
+  width: 1280px;
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 87px;
+  /*因adv_describe使用了定位，不占位置，后面的div（question）并不直接跟在adv_describe后面，
+  而会跟在 adv_describe 的父容器后面，所以此处将位置以边距形式填充至 adv_describe 后面*/
+}
+.adv_paragraph {
+  position: absolute;
+  top: 228px;
+  left: 115px;
+  /*background: pink;*/
+}
+.adv_paragraph .p1 {
+  /*background: #DEDEDE;*/
+  font-family: "微软雅黑";
+  font-size: 60px;
+  color: #FEFEFE;
+}
+.adv_paragraph .p2 {
+  /*background: #D45C5B;*/
+  font-family: "微软雅黑";
+  font-size: 21px;
+  color: #FEFEFE;
+  line-height: 31px;
+  margin: 30px 0 60px 0;
+}
+.adv_paragraph .p3 {
+  width: 331px;
+  height: 65px;
+  background: #E74F4D;
+  font-family: "微软雅黑";
+  font-size: 30px;
+  color: #FEFEFE;
+  text-align: center;
+  line-height: 65px;
+  margin-left: 10px;
+}
+.adv_describe {
+  /*原 width: 1280px;
+  height: 250px;*/
+  width: 1275px;
+  height: 140px;
+  background: #FFFFFF;
+  position: absolute;
+  top: 691px;
+  /*left: -28px;!*为负是为了adv_describe居中对齐*!*/
+  margin: 0 auto;
+  padding: 45px 0 65px 5px;
+}
+.adv_describe ul li {
+  width: 315px;
+  height: 140px;
+  /*background: palegreen;*/
+  float: left;
+  margin: 0 auto;
+  text-align: center;
+}
+.adv_describe ul li img {
+  margin-bottom: 45px;
+}
+.adv_describe ul li p {
+  width: 315px;
+  height: 52px;
+  font-family: "黑体";
+  font-size: 14px;
+  color: #767677;
+  border-right: 2px solid #989899;
+}
+.adv_describe ul li p span{
+  display: inline-block;
+  width: 150px;
+  margin: 0 auto;
+}
+
+/*question*/
+.question {
+  width: 1280px;
+  height: 360px;
+  background: #ECECEC;
+  margin: 0 auto;
+  /*padding-top: 140px;*/
+}
+.question img {
+  display: inline-block;
+  margin: 90px 590px 45px;
+  background: lawngreen;
+}
+.question p {
+  font-family: "黑体";
+  font-size: 53.59px;
+  color: #909090;
+  text-align: center;
+}
+
+/*query*/
+.query {
+  width: 1280px;
+  height: 291px; /*341px*/
+  margin: 0 auto;
+  background-image: url(../images/imatite_newWorld/task_7_query.gif);
+  padding-top: 50px;
+}
+.query .p1 {
+  /*background: khaki;*/
+  font-family: "微软雅黑";
+  font-size: 21px;
+  color: #FEFEFE;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.query hr {
+  margin-bottom: 20px;
+}
+.query .p2 {
+  /*background: chocolate;*/
+  font-family: "微软雅黑";
+  font-size: 12px;
+  color: #FEFEFE;
+  opacity: 0.8;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.query ul {
+  /*background: greenyellow;*/
+  height: 50px;
+  margin-left: 125px;
+}
+.query ul li {
+  /*原宽高  width: 236px;  height: 36px;*/
+  width: 216px;
+  height: 16px;
+  background: #FFFFFF;
+  float: left;
+  margin:0 auto;
+  margin-right: 28px;
+  padding: 10px;
+  font-family: "微软雅黑";
+  font-size: 12px;
+  color: #A8A9AA;
+  position: relative;
+}
+/*鼠标移上li时，给li添加边框*/
+.query ul li:hover {
+  border: 1px solid #CB7773;
+  width: 214px;
+  height: 14px;
+}
+/*鼠标移上li时，给二级ul添加边框*/
+.query ul li:hover ul {
+  width: 100%;/*将二级 ul li 设置宽度为一级li的宽度，然后二级 ul 设为100%*/
+  height: auto;/*让二级ul的高度适应二级ul li的总高度*/
+  border: 1px solid #CB7773;
+}
+.query ul li img {
+   float: right;
+ }
+/*二级下拉菜单*/
+.query ul li ul {
+  position: absolute;
+  top: 35px;
+  left: -126px;
+  display: none;
+}
+.query ul li ul li {
+  width: 194px;
+  font-family: "微软雅黑";
+  font-size: 12px;
+  color: #323232;
+  background: #E3E2E4;
+  float: none;
+  padding: 10px 10px 10px 30px;/*此处设置左为 30px 是因为没有hover二级li时，文字是保有了二级li前面的图片位置*/
+}
+.query ul li ul li img {
+  float: none;/*去掉一级菜单上对图片设置的右浮动影响*/
+  margin-right: 10px;
+}
+/*在一级菜单li 上 hover 时，ul显示*/
+.query ul li:hover ul {
+  display: block;
+}
+/*在一级菜单li 上 hover 时，显示ul及li的内容，但隐藏前面的图片*/
+.query ul li:hover ul li img {
+  display: none;
+}
+/*在二级菜单li 上 hover 时，对 li 的样式更改*/
+.query ul li ul li:hover {
+  background: #BE4E48;
+  font-family: "微软雅黑";
+  font-size: 12px;
+  color: #FEFEFE;
+  padding-left: 10px;/*对二级li上hover时，li前面的图片显示，此时便需要将隐藏图片时所增加的padding值还原，否则二级li的宽度会超出二级ul*/
+}
+/*对二级li上hover，显示二级li 前面的图片*/
+.query ul li ul li:hover img {
+  display: inline;
+}
+.query .query_search {
+  font-family: "微软雅黑";
+  font-size: 14px;
+  background: #BE4E48;
+  color: #FEFEFE;
+  text-align: center;
+}
+
+/*activity*/
+.activity {
+  width: 1022px; /*1022px;*/
+  height: 390px;
+  background: #F8F8F7;
+  padding: 101px 128px 114px 130px;
+  margin: 0 auto;
+}
+.activity ul {
+  height: auto;
+  /*background: darkolivegreen;*/
+  margin: 0 auto;
+  text-align: center;
+}
+.activity ul li {
+  height: 390px;
+  /*background: mediumaquamarine;*/
+  float: left;
+  margin: 0 18px;
+}
+.activity ul li img {
+  margin-bottom: 10px;
+}
+.activity ul li p {
+  font-family: "黑体";
+  font-size: 14px;
+  color: #323333;
+}
+.activity ul li span {
+  font-family: "黑体";
+  font-size: 12px;
+  color: #848585;
+}
+/*activity_sh  上海活动*/
+.activity_sh img {
+  margin-top: 10px;
+}
+.activity .activity_sh p {
+  font-family: "黑体";
+  font-size: 21px;
+  color: #323333;
+}
+
+/*time*/
+.time {
+  width: 1280px;
+  height: 567px;
+  margin: 0 auto;
+  /*background: indianred;*/
+}
+.time_left {
+  width: 849px;
+  height:436px; /*567px;*/
+  background-image: url(../images/imatite_newWorld/task_7_time.gif);
+  float: left;
+  padding-top: 131px;
+  text-align: center;
+  position: relative;/*为了定位三角形的位置*/
+}
+.time_left p {
+  font-family: "微软雅黑";
+  color: #FEFEFE;
+}
+.time_left_p1 {
+  font-size: 49.47px;
+  line-height: 30px;
+}
+.time_left_p2 {
+  /*background: palegreen;*/
+  font-size: 157.79px;
+  line-height: 160px;
+}
+.time_left_p3 {
+  margin-top: 15px;
+  font-size: 21.91px;
+}
+.time_left_sp {
+  /*画出三角形*/
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 28px solid #FEFEFE;
+  border-bottom: 20px solid transparent;
+  /*定位三角形*/
+  position: absolute;
+  top: 50%;/*会居中*/
+  right: 0;
+}
+.time_right {
+  width: 289px;/*431*/
+  height: 402px;
+  /*background: goldenrod;*/
+  float: left;
+  padding: 165px 71px 0 71px;
+}
+/*默认选中第一个，隐藏第二，第三个*/
+/*选中第二个，隐藏第一，第三个*/
+/*选中第三个，隐藏第一，第二个*/
+.time_right_p1 {
+  font-family: "宋体";
+  font-size: 20px;
+  color: #323333;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+.time_right_p1 span {
+  color: #E7504D;
+}
+.time_right_p2 {
+  font-family: "宋体";
+  font-size: 12px;
+  color: #BABABA;
+  line-height: 30px;
+}
+.time_right_p3 {
+  width: 107px;
+  height: 35px;
+  font-family: "微软雅黑";
+  font-size: 12px;
+  border: 1px solid #E25C5F;
+  line-height: 35px;
+  text-align: center;
+  margin: 50px 90px 25px;
+}
+.time_right_p3 a {
+  color: #E25C5F;
+}
+.time_right_p4 {
+  /*text-align: center;*/
+  margin: 0 0 0 114px;
+}
+.time_right_p4 span {
+  display: block;/*块才可以正常使用 border-radius*/
+  margin-right: 15px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #929293;
+  border-radius: 50%;/* border-radius: 50%; 或 border-radius: 50px; 画出空心圆，为其添加背景色便成实心圆*/
+  /*background: #929293;*/
+  float: left;
+}
+.time_right_p4 span:hover {
+  background: #929293;
+}
+/*about*/
+.about {
+  width: 1280px;
+  height: 521px;
+  margin: 0 auto;
+  text-align: center;
+}
+.about ul li {
+  width: 170px;
+  height: 351px;
+  background-color: #FFFFFF;
+  padding: 170px 128px 0;
+  float: left;
+}
+.about_p1 {
+  font-family: "黑体";
+  font-size: 21px;
+  color: #323232;
+  line-height: 35px;
+  margin-bottom: 25px;
+}
+.about hr {
+  background: #ABAAAA;
+}
+.about_p2 {
+  width: 170px;
+  height: 44px;
+  line-height: 44px;
+  margin-top: 25px;
+  border: 1px solid #E74F4D;
+}
+.about_p2 a {
+  font-family: "黑体";
+  font-size: 21px;
+  color: #E74F4D;
+}
+.about_special_li {
+  padding: 0;
+  background-color: transparent;/*让li设置的背景色不影响图片的显示*/
+  background-image: url(../images/imatite_newWorld/task_7_about.gif);
+  position: relative;
+}
+/*画三角*/
+.about_sp {
+  width: 0;
+  height: 0;
+  float: left;
+  vertical-align: middle;
+  border-left: 31px solid #FEFEFE;
+  border-top: 26px solid transparent;
+  border-bottom: 26px solid transparent;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+/*给 li 添加 hover */
+.about ul li:hover {
+  background-color: #E74F4D;
+}
+.about ul li:hover p {
+  color: #FEFEFE;
+}
+.about ul li:hover hr {
+  background-color: #FEFEFE;
+}
+.about ul li:hover .about_p2 {
+  border: 1px solid #FEFEFE;
+}
+.about ul li:hover .about_p2 a {
+  color: #FEFEFE;
+}
+
+/*volunteers*/
+.volunteers {
+  width: 1005px;
+  height: 470px;
+  margin: 120px auto 165px;
+  position: relative;
+}
+.vol_up {
+  text-align: center;
+}
+.vol_up_p1 {
+  font-family: "黑体";
+  font-size: 21px;
+  color: #323232;
+  margin-bottom: 8px;
+}
+.vol_up hr {
+  background-color: #E74F4D;
+ }
+.vol_up_p2 {
+  font-family: "微软雅黑";
+  font-size: 12px;
+  color: #AAAAA9;
+  width: 424px;
+  margin: 12px auto 0;
+}
+.vol_down {
+  width: 1005px;
+  height: 290px;
+  position: absolute;
+  bottom: 0;
+}
+.vol_down_l {
+  width: 290px;
+  height: 290px;
+  float: left;
+}
+.vol_down_l div {
+  margin-top: 15px;
+}
+.vol_down_p1 {
+  font-family: "黑体";
+  font-size: 14px;
+  color: #221814;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+.vol_down_p2, .vol_down_p3 a {
+  font-family: "宋体";
+  font-size: 12px;
+  color: #221814;
+  opacity: 0.6;
+  line-height: 20px;
+}
+.vol_down_p3 {
+  text-align: right;
+}
+.vol_down_r {
+  width: 640px;
+  height: 290px;
+  float: right;
+}
+.vol_down_r form input {
+  background-color: #ECECEE;
+  padding: 5px 10px;
+}
+.vol_down_r form input[type="text"] {
+  width: 295px;
+  height: 31px;
+  font-family: "宋体";
+  font-size: 12px;
+  color: #7D7776;
+}
+.vol_down_r form p {
+  margin-bottom: 14px;
+}
+.vol_down_r form textarea {
+  width: 619px;
+  height: 101px;
+  background-color: #ECECEE;
+  text-align: left;
+  padding: 10px;
+  color: #7D7776;
+}
+.vol_down_r form input[type="submit"] {
+  width: 639px;
+  height: 41px;
+  font-family: "黑体";
+  font-size: 14px;
+  color: #323333;
+}
+/*relation*/
+.relation {
+  width: 510px;
+  height: 196px;
+  background-color: #32363E;
+  padding: 90px 385px 75px;
+  margin: 0 auto;
+  text-align: center;
+}
+.relation_p1 {
+  font-family: "黑体";
+  font-size: 21px;
+  color: #FEFEFE;
+  line-height: 230%;
+}
+.relation_p2 {
+  font-family: "宋体";
+  font-size: 12px;
+  color: #FEFEFE;
+  line-height: 150%;
+}
+.relation form {
+  margin: 25px 0 35px 0;
+  height: 41px;
+  width: 100%;
+  font-family: "微软雅黑";
+  font-size: 14px;
+  line-height: 41px;
+}
+.relation form input {
+  padding-left:10px;
+  width: 421px;
+  height: 41px;
+  float: left;
+  background-color: #FEFEFE;
+  color: #AAAAA9;
+}
+.relation form button {
+  width:78px;
+  height: 41px;
+  font-size: 15px;
+  color: #FEFEFE;
+  background-color: #6F7178;
+  border: 0;
+}
+.relation ul {
+  width: 300px;
+  margin: 0 auto;
+}
+.relation ul li {
+  float: left;
+  margin:0 15px;
+}
+/*footer*/
+.footer {
+  width: 1141px;
+  height: 27px;
+  margin: 0 auto;
+  background-color: #2F2F38;
+  padding: 32px 39px 0 100px;
+  font-family: "宋体";
+  font-size: 12px;
+  color: #FEFEFE;
+}
+.footer p {
+  display: inline;
+}
+.footer_sp {
+  float: right;
+}

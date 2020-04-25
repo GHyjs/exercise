@@ -1,0 +1,750 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*css 初始化--开始*/
+html{
+	font-size:14px;
+	font-style:normal;
+	font-family:'宋体';
+}
+body,div,ul,li,h1,h2,h3,span,p,s,dl,dt,dd{
+	margin:0;
+	padding:0;
+}
+img{
+	border:0px;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;/*去掉链接的下划线*/
+}
+table{
+	border:0px none;
+}
+/*css 初始化--结束*/
+
+/*top开始*/
+.top{
+	width:100%;
+	height:38px;
+	background:#333333; 
+}
+.top .top_child{
+	width:1200px;
+	height:38px;
+	margin:0 auto;
+	background:#333333;
+}
+/*top  左边*/
+.top_l{
+	width:175px;
+	height:38px;
+}
+.top_l s{
+	width:14px;
+	height:20px;
+	display:inline-block;
+	background:url(../image/sprite.png) 0px 0px;
+	vertical-align:middle;
+	line-height:38px;	
+}
+.p1{
+	text-align:center;
+	font-weight:bold;
+	color:#BABABA;
+}
+.p2{
+	text-align:center;
+	line-height:38px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+.top_l p{
+	display:inline-block;
+	width:10px;
+	height:9px;
+	background:url(../image/sprite.png) 0 -25px;
+	line-height:38px;
+	vertical-align:middle;
+		
+}
+/*top  右边*/
+.top_r{
+	width:775px;
+	height:38px;
+}
+.top_r span{
+	font-weight:bold;
+	color:#FFFFFF;
+	display:inline-block;
+	line-height:38px;
+}
+.top_r s{margin:0 8px;}
+.top_r .s1{
+	width:83px;
+	height:23px;
+	display:inline-block;
+	background:url(../image/sprite.png) 0 -40px;	
+	vertical-align:middle;
+	line-height:38px;
+}
+
+.top_r .s2{
+	width:83px;
+	height:23px;
+	display:inline-block;
+	background:url(../image/sprite.png) 0 -70px;
+	vertical-align:middle;
+	line-height:38px;		
+}
+
+.top_r .s3{
+	width:83px;
+	height:23px;
+	display:inline-block;
+	background:url(../image/sprite.png) 0 -100px;
+	vertical-align:middle;
+	line-height:38px;		
+}
+
+.top_r .s4{
+	width:27px;
+	height:27px;
+	display:inline-block;
+	background:url(../image/sprite.png) 0 -130px;
+	vertical-align:middle;
+	line-height:38px;		
+}
+
+.top_r .s5{
+	width:27px;
+	height:27px;
+	display:inline-block;
+	background:url(../image/sprite.png) 0 -165px;
+	vertical-align:middle;
+	line-height:38px;	
+}
+
+.top_r .s6{
+	width:27px;
+	height:27px;
+	display:inline-block;
+	background:url(../image/sprite.png) 0 -200px;
+	vertical-align:middle;
+	line-height:38px;	
+}
+
+.top_r .s7{
+	width:27px;
+	height:27px;
+	display:inline-block;
+	background:url(../image/sprite.png) 0 -235px;
+	vertical-align:middle;
+	line-height:38px;	
+}
+/*top结束*/
+
+/*nav  开始*/
+.nav{
+	width:100%;
+	height:94px;
+}
+.nav .nav1{
+	width:1200px;
+	height:75px;
+	margin:0 auto;
+	padding-top:19px;
+}
+
+.nav1 .nav_logo{
+	width:155px;
+	height:56px;
+}
+.nav1 .nav_logo p{
+	width:155px;
+	height:56px;
+	background:url(../image/sprite.png) -95px 0px;
+}
+.nav_option{
+	width:930px;
+	height:56px;
+}
+.nav_option ul li{
+	color:#5C5C5C;
+	font-weight:bold;
+	font-size:20px;
+	font-style:'微软雅黑';
+	padding:0 20px;
+	line-height:56px;
+	float:left;
+}
+
+.nav_option ul li .search{
+	display:inline-block;
+	vertical-align:middle;
+	line-height:56px;
+	width:23px;
+	height:23px;
+        background:url(../image/sprite.png) 0px -270px;
+}
+
+.nav_option ul .search_li:hover {
+        background-color: transparent;
+}
+.nav_option ul li:hover{
+	background:#275599;
+
+}
+.nav_option ul li:hover a{
+	color:#FFF;
+}
+/*.nav_option ul li：hover .search{
+	width:23px;
+	height:23px;
+	background:#FFF;
+}
+.nav_option .s1{
+	border:1px solid #FFFFFF;
+	border-radius:22px;
+	padding:5px 10px;	
+}
+nav  结束*/
+
+/* adv  广告 -- 开始*/
+.adv{
+	height:526px;	
+	background:url(../image/adv.gif) no-repeat center;
+}
+
+/*此处有图片轮播*/
+
+/* adv  广告 -- 结束*/
+
+/* bannar  内容 -- 开始*/
+.bannar{
+	width:100%;
+	height:395px;
+
+}
+.bannar .bannar1{
+	width:1200px;
+	height:328px;
+	margin:0 auto;
+	padding:45px 55px 45px 25px;	
+}
+.bannar .bannar1 .bannar_top{
+	width:1045px;
+	height:37px;
+	margin-bottom:30px;
+}
+.bannar .bannar1 .bannar_top p{
+	font-family:'微软雅黑';
+	font-size:28px;
+	font-weight:bold;
+	color:#353535;
+	float:left;
+}
+.bannar .bannar1 .bannar_top span{
+	display:inline-block;
+	font-family:'微软雅黑';
+	font-size:14px;
+	font-weight:bold;
+	color:#9A9A9A;
+	float:left;
+	padding:18px 0 0 10px;
+}
+.bannar1 .bannar_center{
+	height:187px;
+	width:1200px;
+}
+.bannar_center ul li img{
+	float:left;
+	padding-left:4px;
+}
+
+.bannar .bannar1 .bannar_bottom{
+	width:1045px;
+	height:20px;
+	margin-top:30px;
+}
+.bannar .bannar1 .bannar_bottom p{
+	font-family:'微软雅黑';
+	font-size:28px;
+	font-weight:bold;
+	color:#353535;
+	float:left;
+}
+.bannar .bannar1 .bannar_bottom span{
+	display:inline-block;
+	font-family:'微软雅黑';
+	font-size:14px;
+	font-weight:bold;
+	color:#9A9A9A;
+	float:left;
+	padding:18px 0 0 10px;
+}
+/* bannar  内容 -- 结束*/
+
+/*服务流程--开始*/
+.flow{
+	width:100%;
+	height:400px;
+	background:#F5F5F5;
+	padding:15px 0px;
+}
+.flow .flowMain{
+	width:1200px;
+	height:400px;
+	margin:0 auto;
+}
+.flowMain .flow1,.flow2,.flow3,.flow4,.flow5{
+	width:235px;
+	height:400px;
+	margin-right:5px;
+	background:#FFFFFF;
+}
+.flowMain 
+.flow1 .main_P,
+.flow2 .main_P,
+.flow3 .main_P,
+.flow4 .main_P,
+.flow5 .main_P{
+	width:160px;
+	height:333px;
+	margin:30px auto;
+}
+.main_P .flow1_p_1{
+	font-size:60px;
+	font-family:'黑体';
+	font-style:italic;
+	color:#8D8B8B;
+	border-bottom:1px solid #D3D3D3;
+	text-align:center;
+	padding-bottom:20px;
+}
+.main_P .flow1_p_2{
+	padding-top:24px;
+	padding-bottom:60px;
+	text-align:center;
+	font-size:20px;
+	font-family:'微软雅黑';
+	color:#9A9A9A;
+}
+.flow1 .main_P .flow1_p_3{
+	line-height:33px;
+	font-size:14px;
+	font-family:'微软雅黑';
+	color:#F7FCF4;
+	letter-spacing:3px;
+}
+/*服务流程--结束*/
+
+/*热门案例--开始*/
+.case{
+	width:1200px;
+	height:461px;
+	margin:0 auto;
+	margin-top:43px;
+}
+
+.case .up{
+	width:1200px;
+	height:30px;
+	margin-bottom:30px;
+}
+.case .up p{
+	font-family:'微软雅黑';
+	font-size:28px;
+	color:#353535;
+	float:left;
+}
+.case .up span{
+	display:inline-block;
+	font-family:'微软雅黑';
+	font-size:14px;
+	color:#9A9A9A;
+	float:left;	
+	padding:18px 0 0 10px;
+}
+.case .down{
+	width:1200px;
+	height:400px;
+	margin:0 auto;
+}
+.down ul li{
+	width:296px;
+	height:400px;
+	background:#39C;
+	margin-right:5px;
+	float:left;
+	/*
+	overflow:hidden; 
+	这样虽然也能解决图片比div大的问题，但是图片会被隐藏一部分
+	*/
+}
+.down ul .down_ul{
+	margin-right:0px;
+}
+.down ul li .map{
+	width:296px;
+	height:266px;
+}
+.down img{
+	width:100%;/*让图片的宽度自适应div的宽度，但等同的，需要将高度相对应的变化等同px值*/
+}
+.down ul li .desc{
+	width:266px;
+	height:109px;
+	padding:25px 15px 0px;
+	background:#F5F5F5;
+}
+.down ul li .desc .desc1{
+	margin-bottom:15px;
+	font-family:'微软雅黑';
+	font-size:16px;
+	color:#353535;
+	font-weight:bold;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.down ul li .desc .desc2{
+	margin-bottom:14px;
+	font-family:'宋体';
+	font-size:16px;
+	color:#666666;
+}
+
+/*.down ul li .desc .desc2 .span1{
+	display:inline-block;
+	margin:0px 20px;
+}*/
+
+.desc2 span{display:table-cell;}
+
+.down ul li .desc .desc2{
+	width:246px;
+	display:table;
+	text-align:center;
+}
+/*转化成表格，让文字居中*/
+
+.down ul li .desc .desc3{
+	font-size:12px;
+	float:right;
+}
+.down ul li .desc .desc3 .ss{
+	color:#666666;
+}
+.down ul li .desc .desc3 .span2{
+	display:inline-block;
+	width:20px;
+	height:18px;
+	background:url(../image/aixin.gif);
+	vertical-align:middle;
+	margin:0px 5px;
+}
+.down ul li .desc .desc3 .span3{
+	display:inline-block;
+	width:21px;
+	height:19px;
+	background:url(../image/yuyankuang.gif);
+	vertical-align:middle;
+	margin:0px 5px;
+}
+/*热门案例--结束*/
+
+/*优秀设计师--开始*/
+.design{
+	width:1200px;
+	height:446px;
+	margin:0 auto;
+	margin-top:51px;	
+}
+.design .left{
+	width:830px;
+	height:446px;
+}
+.left .left_top{
+	width:830px;
+	height:27px;
+	margin-bottom:29px;
+}
+.left .left_top p{
+	display:inline-block;
+	font-family:'微软雅黑';
+	font-size:28px;
+	color:#353535;
+	float:left;
+}
+.left .left_top span{
+	display:inline-block;
+	font-family:'微软雅黑';
+	font-size:14px;
+	color:#9A9A9A;
+	float:left;	
+	padding:18px 0 0 10px;
+}
+.left .left_down{
+	width:830px;
+	height:390px;
+}
+.left .left_down .down1{
+	width:818px;
+	height:145px;
+	background:#F5F5F5;	
+	padding:25px 0px 25px 12px;
+}
+.left .left_down .down1 .down1_in{
+	width:262px;
+	height:141px;
+	margin-right:10px;
+}
+.down1 .down1_in .down1_in_left{
+	width:140px;
+	height:140px;
+	margin-right:10px;
+}
+.down1 .down1_in .down1_in_right{
+	width:112px;
+	height:140px;
+}
+.down1 .down1_in .down1_in_right span{
+	display:block;
+	margin:20px 0;
+}
+.down1 .down1_in .down1_in_right .span1{
+	font-family:'微软雅黑';
+	font-size:18px;
+	color:#353535;
+}
+.down1 .down1_in .down1_in_right span{
+	font-family:'微软雅黑';
+	font-size:14px;
+	color:#4C4C4C;
+}
+.design .right{
+	width:337px;
+	height:446px;
+}
+.right .right_top{
+	width:337px;
+	height:27px;
+}
+.right .right_top p{
+	display:inline-block;
+	font-family:'微软雅黑';
+	font-size:28px;
+	color:#353535;
+	float:left;
+}
+.right .right_top span{
+	display:inline-block;
+	font-family:'微软雅黑';
+	font-size:14px;
+	color:#9A9A9A;
+	float:left;	
+	padding:18px 0 0 10px;
+}
+.right .right_down{
+	width:337px;
+	height:390px;
+	margin-top:29px;
+	background:#F5F5F5;
+}
+.right_down ul li{
+	line-height:36px;
+	margin-bottom:10px;
+	color:#353535;
+	font-family:'宋体';
+	font-size:14px;
+}
+.right_down ul .pp{
+	display:inline-block;
+	margin:0px 31px 0px 26px;
+	color:#757575;
+	font-size:20px;
+	font-family:'微软雅黑';
+}
+/*优秀设计师--结束*/
+
+/*热门装修攻略--开始*/
+.strategy{
+	width:1200px;
+	height:500px;
+	margin:0 auto;
+	margin-top:49px;
+	margin-bottom:48px;	
+}
+.strategy .strategy_top{
+	width:830px;
+	height:27px;
+	margin-bottom:40px;
+}
+.strategy .strategy_top p{
+	display:inline-block;
+	font-family:'微软雅黑';
+	font-size:28px;
+	color:#353535;
+	float:left;
+}
+.strategy .strategy_top span{
+	display:inline-block;
+	font-family:'微软雅黑';
+	font-size:14px;
+	color:#9A9A9A;
+	float:left;	
+	padding:18px 0 0 10px;
+}
+.strategy .content{
+	width:1200px;
+	height:430px;
+}
+.content .content1{
+	width:1200px;
+	height:200px;
+	margin-bottom:30px;
+}
+.content .content_l{
+	width:600px;
+	height:200px;	
+}
+.content .content_l .content_desc{
+	width:290px;
+	height:200px;
+	padding-left:10px;
+}
+.content_desc .p1{
+	font-family:'微软雅黑';
+	font-size:16px;
+	color:#353535;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+.content_desc .p2{
+	font-family:'宋体';
+	font-size:13px;
+	color:#353535;
+	line-height:35px;
+	text-align:left;
+	margin-top:20px;
+}
+.content_desc .p3{
+	font-size:12px;
+	float:right;
+	margin-right:20%;
+	margin-top:20px;
+}
+.content_desc .p3 .ss{
+	color:#666666;
+}
+.content_desc .p3 .p4{
+	display:inline-block;
+	width:20px;
+	height:18px;
+	background:url(../image/aixin.gif);
+	vertical-align:middle;
+	margin:0px 5px;
+}
+.content_desc .p3 .p5{
+	display:inline-block;
+	width:21px;
+	height:19px;
+	background:url(../image/yuyankuang.gif);
+	vertical-align:middle;
+	margin:0px 5px;
+}
+/*热门装修攻略--结束*/
+
+/*友情链接--开始*/
+.link{
+	height:52px;
+	background:#F5F5F5;
+}
+.link .link1{
+	width:1200px;
+	height:52px;
+	margin:0 auto;	
+}
+.link1 .linkf{
+	font-family:'微软雅黑';
+	font-size:16px;
+	color:#666666;
+}
+.link1 ul li{
+	float:left;
+	margin-right:50px;
+	line-height:52px;
+	font-size:12px;
+	color:#676767;
+}
+
+
+/*友情链接--结束*/
+
+/*底部导航--开始*/
+.bottom_nav{
+	height:219px;
+	background:#2E2E2E;
+}
+.bottom1{
+	width:1200px;
+	height:219px;
+	margin:0 auto;
+	padding-top:31px;
+}
+.bottom_nav .bottom1 .left dl{
+	width:67px;
+	height:124px;
+	font-size:12px;
+	float:left;
+	margin-right:30px;
+}
+.bottom_nav .bottom1 .left dt{
+	height:16px;
+	color:#FFFFFF;
+	font-size:16px;
+	font-family:'微软雅黑';
+	margin-bottom:12px;
+}
+.left .about,.other{
+	margin-left:150px;
+}
+.bottom_nav .bottom1 .left dd{
+	font-size:12px;
+	line-height:37px;
+	color:#C8C8C8;
+}
+.bottom_nav .bottom1 .left dd a{
+		color:#C8C8C8;
+}
+.bottom_nav .bottom1 .right{
+	width:330px;
+	height:160px;
+	float:right;
+}
+.bottom_nav .bottom1 .right p{
+	display:inline-block;
+	float:left;
+}
+.bottom_nav .bottom1 .right .wechat{
+	display:inline-block;
+	color:#C8C8C8;
+	line-height:38px;
+	vertical-align:middle;
+	margin:45px 0 0 30px;	
+}
+/*底部导航--结束*/
+
+/*footer*/
+.coryright{
+	height:44px;
+	background:#2A2A2A;
+	text-align:center;
+	line-height:44px;
+}
+coryright span{
+	font-family:Arial, Helvetica, sans-serif;
+}
