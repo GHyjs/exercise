@@ -4,3 +4,23 @@
 我在本地做了修改
 
 上传到 git hub 前修改一下
+
+$ git remote -v
+	origin  https://github.com/GHyjs/exercise.git (fetch)
+	origin  https://github.com/GHyjs/exercise.git (push)
+
+$ git remote rm origin
+
+$ git remote -v
+
+$ git remote add origin git@github.com:GHyjs/exercise.git
+	为 github 某仓库的 ssh 地址
+
+$ git push --set-upstream origin master
+	期间会让输入一个 ： yes
+
+
+
+
+
+
